@@ -10,8 +10,16 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "fonts": [
+      "./assets/fonts/OpenSans-Bold.ttf",
+      "./assets/fonts/OpenSans-Regular.ttf",
+      "./assets/fonts/OpenSans-SemiBold.ttf"
+    ]
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
